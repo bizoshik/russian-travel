@@ -1,0 +1,6 @@
+.header__links {
+  display: flex;
+  flex-direction: row;
+  width: 77px;
+  height: 28px;
+}
