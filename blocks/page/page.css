@@ -1,7 +1,4 @@
 .page {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   min-width: 320px;
   background-color: #2a2c2f;
   font-family: "Inter", Arial, sans-serif;
