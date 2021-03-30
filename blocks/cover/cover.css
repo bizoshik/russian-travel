@@ -24,3 +24,7 @@
   background: #2a2c2f;
   opacity: 0.3;
 }
+
+.cover:hover::after {
+  opacity: 0.8;
+}
