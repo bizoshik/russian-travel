@@ -1,6 +1,6 @@
 .place {
   display: flex;
   flex-wrap: wrap;
-  width: 984px;
+  max-width: 984px;
   padding-bottom: 80px;
 }

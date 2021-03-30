@@ -8,3 +8,10 @@
   line-height: 1.05;
   color: #ffffff;
 }
+
+@media (max-width: 1279px) {
+  .place__title {
+    width: 440px;
+    padding-right: 32px;
+  }
+}

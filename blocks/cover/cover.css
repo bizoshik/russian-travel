@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1184px;
+  max-width: 1184px;
   min-height: 740px;
   padding: 0 48px;
   padding-bottom: 92px;
@@ -27,4 +27,17 @@
 
 .cover:hover::after {
   opacity: 0.8;
+}
+
+@media (max-width: 1279px) {
+  .cover {
+    background-size: 1024px 640px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .cover::after {
+    left: 0;
+    right: 0;
+  }
 }
