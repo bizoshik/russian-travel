@@ -1,0 +1,25 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1184px;
+  min-height: 740px;
+  padding: 0 48px;
+  background-image: url("../../images/zhelezna-doroga.png");
+  background-repeat: no-repeat;
+  background-size: 1184px 740px;
+  background-position: center;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 48px;
+  right: 48px;
+  bottom: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+}
