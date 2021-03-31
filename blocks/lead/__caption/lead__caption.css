@@ -10,3 +10,9 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
+@media (max-width: 1023px) {
+  .lead__caption {
+    padding-bottom: 88px;
+  }
+}

@@ -7,3 +7,9 @@
     width: 44.5%;
   }
 }
+
+@media (max-width: 1023px) {
+  .place__paragraphs {
+    width: 45.8%;
+  }
+}

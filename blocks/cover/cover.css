@@ -7,7 +7,6 @@
   max-width: 1184px;
   min-height: 740px;
   padding: 0 48px;
-  padding-bottom: 92px;
   background-image: url("../../images/zhelezna-doroga.png");
   background-repeat: no-repeat;
   background-size: 1184px 740px;
@@ -31,13 +30,18 @@
 
 @media (max-width: 1279px) {
   .cover {
-    background-size: 1024px 640px;
+    min-height: 640px;
+    background-size: cover;
   }
-}
 
-@media (max-width: 1279px) {
   .cover::after {
     left: 0;
     right: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
   }
 }

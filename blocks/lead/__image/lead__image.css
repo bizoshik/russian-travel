@@ -2,10 +2,20 @@
   width: 984px;
   height: 615px;
   padding-bottom: 8px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 1279px) {
   .lead__image {
     width: 100%;
+    height: 580px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead__image {
+    width: 100vw;
+    height: 480px;
   }
 }
