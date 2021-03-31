@@ -15,3 +15,9 @@
     padding-bottom: 88px;
   }
 }
+
+@media (max-width: 767px) {
+  .intro__list {
+    padding-bottom: 64px;
+  }
+}
