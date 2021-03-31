@@ -13,3 +13,9 @@
     width: 45.8%;
   }
 }
+
+@media (max-width: 767px) {
+  .place__paragraphs {
+    width: 100%;
+  }
+}

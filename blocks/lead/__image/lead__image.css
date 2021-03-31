@@ -22,7 +22,6 @@
 
 @media (max-width: 767px) {
   .lead__image {
-    width: 100vw;
     height: 200px;
   }
 }

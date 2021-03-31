@@ -12,8 +12,8 @@
 
 @media (max-width: 767px) {
   .cover__title {
-    width: 288px;
-    min-height: 70px;
+    width: 248px;
     font-size: 32px;
+    padding-bottom: 16px;
   }
 }

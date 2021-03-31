@@ -45,3 +45,9 @@
     min-height: 480px;
   }
 }
+
+@media (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+}
