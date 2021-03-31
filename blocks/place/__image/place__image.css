@@ -18,3 +18,10 @@
     height: 340px;
     padding-right: 28px;
   }
+
+@media (max-width: 767px) {
+  .place__image {
+    width: 288px;
+    height: 216px;
+  }
+}

@@ -9,3 +9,11 @@
   color: #ffffff;
   z-index: 2;
 }
+
+@media (max-width: 767px) {
+  .cover__title {
+    width: 288px;
+    min-height: 70px;
+    font-size: 32px;
+  }
+}

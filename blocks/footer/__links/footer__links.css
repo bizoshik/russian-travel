@@ -7,3 +7,9 @@
 .footer__links:nth-child(n) {
   list-style-type: none;
 }
+
+@media (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}

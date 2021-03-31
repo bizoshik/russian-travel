@@ -8,3 +8,11 @@
   line-height: 1.04;
   color: #ffffff;
 }
+
+@media (max-width: 767px) {
+  .lead__title {
+    width: 288px;
+    font-size: 40px;
+    padding-bottom: 16px;
+  }
+}
