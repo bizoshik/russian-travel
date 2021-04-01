@@ -1,9 +1,8 @@
 .cover {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: stretch;
+  align-items: stretch;
   max-width: 1184px;
   min-height: 740px;
   padding: 0 48px;
@@ -11,7 +10,6 @@
   background-repeat: no-repeat;
   background-size: 1184px 740px;
   background-position: center;
-  text-decoration: none;
 }
 
 .cover::after {
@@ -33,6 +31,7 @@
   .cover {
     min-height: 640px;
     background-size: cover;
+    padding: 0;
   }
 
   .cover::after {
