@@ -2,10 +2,7 @@
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-.footer__links:nth-child(n) {
-  list-style-type: none;
+  list-style: none;
 }
 
 @media (max-width: 767px) {

@@ -6,6 +6,7 @@
   line-height: 28px;
   color: #ffffff;
   text-decoration-line: none;
+  transition: opacity 0.2s;
 }
 
 .header__lang-link:nth-child(2) {

@@ -1,15 +1,5 @@
 .header__links {
   display: flex;
   flex-direction: row;
-  width: 77px;
-  height: 28px;
   padding-bottom: 6px;
-}
-
-@media (max-width: 767px) {
-  .header__links {
-    width: 62px;
-    height: 20px;
-    padding-bottom: 6px;
-  }
 }
